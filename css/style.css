@@ -1,0 +1,84 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Krona One', sans-serif;
+    min-width: 1172px;
+}
+
+nav{
+    width: 350px;
+    padding-top: 20px;
+    position: fixed;
+    right: 30px;
+    z-index: 10;
+}
+header{
+    position: relative;
+}
+nav>li{ 
+    margin-top: 25px;
+    display: inline-block;  
+}
+
+nav>li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 20px 25px;
+    background-color: white;
+    border: 1px solid black;
+    float: right;
+}
+.trasform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.relative{
+    position: relative;
+}
+.titolo{
+    text-align: center;
+    width: 600px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.yellow-color{
+    color: yellow;
+}
+.green-color{
+    color: green;
+}
+.scarpa{
+    position: relative;
+}
+
+#bg-red{
+    background-color: red;
+    height: 100vh;
+
+}
+#bg-green{
+    background-color: green;
+    height: 100vh;
+
+}
+#bg-yellow{
+    background-color: yellow;
+    height: 100vh;
+   
+}
